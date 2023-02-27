@@ -1,0 +1,9 @@
+#header {
+  background-color: rgb(242, 66, 242);
+  height: 60px;
+}
+#mobileName {
+  font-size: 40px;
+  padding: 5px 20px;
+  color: white;
+}

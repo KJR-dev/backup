@@ -1,0 +1,166 @@
+#MainHeader {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  width: 88.5%;
+}
+#LeftAside {
+  border-left: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  width: 25%;
+  height: 650px;
+  float: left;
+}
+#Nav {
+  border-right: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  width: 64.7%;
+  height: 60px;
+  float: left;
+}
+#NavContent {
+  float: left;
+  padding-left: 25px;
+}
+#NavStatus {
+  float: right;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+#contain {
+  border-right: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  width: 64.7%;
+  height: 588px;
+  float: left;
+}
+.containDiv1,
+.containDiv2,
+.containDiv3 {
+  border: 2px solid rgb(0, 0, 0);
+  height: 30%;
+  margin: 1%;
+}
+.containDiv1divA,
+.containDiv1divB {
+  float: left;
+  height: 85%;
+  margin: 1.4%;
+  width: 35%;
+}
+.containDiv1divC {
+  float: left;
+  height: 85%;
+  width: 20%;
+  margin: 1.4%;
+  float: left;
+}
+.Price {
+  font-size: 35px;
+}
+.TravelDetails,
+.DepartTime,
+.ArriveTime {
+  font-size: 25px;
+}
+.Blank {
+  height: 40px;
+  width: 100%;
+}
+.Cross {
+  border: 2px solid rgb(0, 0, 0);
+  height: 75%;
+  width: 100%;
+}
+
+.Booking {
+  height: 20%;
+  width: 102%;
+  margin-top: 2%;
+  font-size: 15px;
+}
+.OneWay {
+  padding-top: 5px;
+  text-align: center;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-left: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid rgb(0, 0, 0);
+  height: 30px;
+  width: 80px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: rgb(255, 255, 255);
+}
+.Return {
+  padding-top: 5px;
+  text-align: center;
+  float: left;
+  margin-top: 15px;
+  margin-left: -1px;
+  border-left: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+  height: 30px;
+  width: 80px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: rgb(255, 255, 255);
+}
+.Filter{
+  float:left;
+  margin-left: 15px;
+  height:fit-content;
+  width: 90%;
+  border: 2px solid rgb(0, 0, 0);
+}
+::placeholder {
+  color: black;
+}
+input {
+  font-size: medium;
+  border: 2px solid rgb(0, 0, 0);
+} 
+#LeftAsideFilterOriginCity,
+#LeftAsideFilterDestinationCity{
+  margin: 10px;
+  margin-bottom: 0px;
+  width: 90%;
+  height: 5%;
+}
+#LeftAsideFilterDepartureDate,
+#LeftAsideFilterReturnDate,
+#LeftAsideFilterPassenger{
+  margin: 10px;
+  margin-bottom: 0px;
+  width: 80%;
+  height: 5%;
+}
+.DropDownSymbolDepartureDate,
+.DropDownSymbolReturnDate,
+.DropDownSymbolPassenger{
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: -12px;
+  height: 24px;
+  width: 30px;
+  font-size: 15px;
+  padding: 0%;
+}
+.Search{
+  margin:10px;
+  height: 31px;
+  font-size: 15px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.PriceLevel{
+  float:left;
+  margin: 15px;
+  height:fit-content;
+  width: 90%;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.header_nav{
+    padding: 20px;
+    float: right;
+    height: 40px;
+}
+#mail, #google_image{
+    color: white;
+    text-decoration:none;
+}
+.nav_items{
+    padding: 2px;
+    margin: 2px;
+}
+.gb_e{
+    padding-top: 50px;
+}
+.userImage{
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 50%;
+}
+.google_logo{
+    background-color: wheat;
+    height: 200px;
+    width: 500px;
+    padding: auto;
+    margin: auto;
+    align-items: center;
+}

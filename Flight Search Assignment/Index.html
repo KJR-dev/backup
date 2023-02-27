@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Search Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="MainHeader">Flight Search Engine</header>
+    <section>
+      <aside id="LeftAside">
+        <div class="main" id="LeftAsideDiv">
+          <button class="OneWay">One way</button>
+          <button class="Return" onclick="Return()">Return</button>
+          <div class="Filter">
+            <input
+              type="text"
+              name=""
+              id="LeftAsideFilterOriginCity"
+              placeholder="Enyer Origin City"
+            />
+            <input
+              type="text"
+              name=""
+              id="LeftAsideFilterDestinationCity"
+              placeholder="Enyer Destination City"
+            />
+            <input
+              type="text"
+              name=""
+              id="LeftAsideFilterDepartureDate"
+              placeholder="Departure Date"
+            /><button class="DropDownSymbolDepartureDate">&#9660;</button>
+            <input
+              type="text"
+              name=""
+              id="LeftAsideFilterReturnDate"
+              placeholder="Return Date"
+            /><button class="DropDownSymbolDepartureDate">&#9660;</button>
+            <input
+              type="text"
+              name=""
+              id="LeftAsideFilterPassenger"
+              placeholder="Return Date"
+            /><button class="DropDownSymbolPassenger">&#9660;</button>
+            <button class="Search">Search</button>
+          </div>
+          <div class="PriceLevel">
+            <p id="PriceLevelRefineFlightSearch">Refine flight search</p>
+
+            <input type="range" id="vol" name="vol" min="0" max="100" />
+          </div>
+        </div>
+      </aside>
+      <main>
+        <nav id="Nav">
+          <div id="NavContent"><h3>Pune > Delhi > Pune</h3></div>
+          <div id="NavStatus">
+            Depart : 1st Jan 2012 <br />Return : 10th Jan 2012
+          </div>
+        </nav>
+        <div id="contain">
+          <div class="containDiv1">
+            <div class="containDiv1divA">
+              <div class="Price">Rs. 95.000.00</div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divB">
+              <div class="Blank"></div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divC">
+              <div class="Cross"></div>
+              <button class="Booking">Book this flight</button>
+            </div>
+          </div>
+          <div class="containDiv2">
+            <div class="containDiv1divA">
+              <div class="Price">Rs. 95.000.00</div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divB">
+              <div class="Blank"></div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divC">
+              <div class="Cross"></div>
+              <button class="Booking">Book this flight</button>
+            </div>
+          </div>
+          <div class="containDiv3">
+            <div class="containDiv1divA">
+              <div class="Price">Rs. 95.000.00</div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divB">
+              <div class="Blank"></div>
+              <div class="OriginLocationCode">AI-202</div>
+              <div class="TravelDetails">PNQ > DEL</div>
+              <div class="DepartTime">Depart: 10.00 AM</div>
+              <div class="ArriveTime">Arrive: 12.00 PM</div>
+            </div>
+            <div class="containDiv1divC">
+              <div class="Cross"></div>
+              <button class="Booking">Book this flight</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <script src="/javascript.js"></script>
+  </body>
+</html>
