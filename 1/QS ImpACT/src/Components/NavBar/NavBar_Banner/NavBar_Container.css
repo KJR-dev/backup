@@ -1,0 +1,71 @@
+.navStyle {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navFirstNavBar {
+  height: 80px;
+  width: 20%;
+}
+
+.imgStyle {
+  height: 50px;
+  margin: 10px;
+}
+
+.navSecondNavBar {
+  height: 80px;
+  width: 72%;
+}
+
+.navSecondNavBar ul {
+  list-style-type: none;
+  height: 100%;
+  padding-top: 25px;
+}
+
+.navSecondNavBar ul li {
+  height: 100%;
+  display: inline;
+  margin: 20px 25px; /* margin-right ko hata diya gaya hai */
+}
+
+.navSecondNavBar ul li a {
+  height: 100%;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.userIcon {
+  font-size: 25px;
+  margin: 0px 5px;
+}
+
+.navThirdNavBar {
+  height: 80px;
+  width: 8%;
+  background-color: #ffaf00;
+}
+
+.navThirdNavBar ul {
+  list-style-type: none;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.navThirdNavBar ul li {
+  height: 100%;
+  display: inline;
+  margin: 25px 20px; /* margin-right ko hata diya gaya hai */
+}
+.navThirdNavBar ul li a {
+  height: 100%;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}

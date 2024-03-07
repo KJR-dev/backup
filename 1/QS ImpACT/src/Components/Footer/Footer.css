@@ -1,0 +1,111 @@
+.mainFooter {
+  height: 330px;
+  width: 100%;
+  background-color: #3d2901;
+}
+.firstInnerFooter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.firstFooterDiv {
+  height: 100%;
+  width: 25%;
+  background-color: #3d2901;
+  text-align: center;
+  padding: 15px;
+}
+
+.secondFooterDiv {
+  height: 100%;
+  width: 35%;
+  background-color: #3d2901;
+  padding: 15px;
+}
+
+.thirdFooterDiv {
+  height: 100%;
+  width: 20%;
+  background-color: #3d2901;
+  padding: 15px;
+  color: white;
+}
+
+.fourthFooterDiv {
+  height: 100%;
+  width: 20%;
+  background-color: #3d2901;
+  padding: 15px;
+  color: white;
+}
+
+.firstFooterDiv imgStyle {
+  display: inline-block;
+  height: 40px;
+}
+
+.firstFooterDiv p {
+  padding: 20px;
+  color: white;
+}
+
+.firstFooterDiv button {
+  height: 60px;
+  border-color: transparent;
+  background-color: #20c7b7;
+  padding: 10px;
+}
+
+.firstFooterDiv a {
+  text-decoration: none;
+}
+
+.thirdFooterDiv hr,
+.fourthFooterDiv hr {
+  margin: 15px 5px;
+  width: 15%;
+}
+
+.thirdFooterDiv ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.thirdFooterDiv ul li {
+  margin: 25px 0px;
+}
+
+.fourthFooterDiv div span i {
+  font-size: 25px;
+  margin: 0px 10px;
+}
+
+.secondInnerFooter {
+  height: 60px;
+  background-color: #312101;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.secondInnerFooterFirstDiv {
+  width: 20%;
+  height: 20px;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  color: #d1d1d1;
+}
+
+.secondInnerFooterSecondDiv {
+  width: 60%;
+}
+
+.secondInnerFooterThirdDiv {
+  width: 20%;
+  height: 20px;
+  color: #d1d1d1;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
